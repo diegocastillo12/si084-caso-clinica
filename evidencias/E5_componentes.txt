@@ -1,0 +1,5 @@
+<meta name="generator" content="WordPress 5.8.1">
+<link rel="stylesheet" href="/wp-content/themes/medicalpro/style.css?ver=2.1.0">
+<link rel="stylesheet" href="/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.3.1">
+<script src="/wp-includes/js/jquery/jquery.min.js?ver=3.4.1"></script>
+<script src="/wp-content/plugins/wp-file-manager/lib/js/elfinder.min.js?ver=6.8"></script>

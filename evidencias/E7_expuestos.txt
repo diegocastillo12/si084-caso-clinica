@@ -1,0 +1,24 @@
+=== ADMINISTRACION === 
+<!DOCTYPE html>
+<html lang="es">
+<head><meta charset="utf-8"><title>WebSur CMS · Panel de administración</title></head>
+<body>
+<h1>Panel de administración</h1>
+<form method="post" action="http://portal.clinica-santalucia.test/admin/login.php">
+  <input type="text" name="usuario" placeholder="Usuario">
+  <input type="password" name="clave" placeholder="Contraseña">
+  <button type="submit">Ingresar</button>
+</form>
+</body>
+</html>
+=== LISTADO DE RESPALDOS === 
+<html>
+<head><title>Index of /respaldos/</title></head>
+<body>
+<h1>Index of /respaldos/</h1><hr><pre><a href="../">../</a>
+<a href="citas_export_2026-08.csv">citas_export_2026-08.csv</a>                           28-Oct-2026 21:00                  91
+<a href="portal_2025-09-30.sql.gz">portal_2025-09-30.sql.gz</a>                           28-Oct-2026 21:00                 101
+<a href="portal_2026-03-31.sql.gz">portal_2026-03-31.sql.gz</a>                           28-Oct-2026 21:00                 101
+<a href="wp-config.php.bak">wp-config.php.bak</a>                                  28-Oct-2026 21:00                  90
+</pre><hr></body>
+</html>

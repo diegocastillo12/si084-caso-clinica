@@ -1,0 +1,50 @@
+=== CITAS === 
+<!DOCTYPE html>
+<html lang="es">
+<head><meta charset="utf-8"><title>Reserva tu cita · Clínica Santa Lucía</title></head>
+<body>
+<h1>Reserva tu cita</h1>
+<form method="get" action="http://portal.clinica-santalucia.test/citas/registrar.php">
+  <input type="text" name="nombres" placeholder="Nombres y apellidos">
+  <input type="text" name="dni" placeholder="DNI">
+  <input type="date" name="fecha_nacimiento">
+  <input type="text" name="telefono" placeholder="Celular">
+  <input type="email" name="correo" placeholder="Correo">
+  <select name="especialidad"><option>Medicina general</option><option>Pediatría</option><option>Ginecología</option><option>Psiquiatría</option></select>
+  <textarea name="motivo_consulta" placeholder="Describa sus síntomas"></textarea>
+  <input type="hidden" name="medico_id" value="17">
+  <input type="checkbox" name="acepto" value="1">
+  <button type="submit">Reservar</button>
+</form>
+</body>
+</html>
+=== RESULTADOS === 
+<!DOCTYPE html>
+<html lang="es">
+<head><meta charset="utf-8"><title>Resultados de laboratorio · Clínica Santa Lucía</title></head>
+<body>
+<h1>Consulta tus resultados</h1>
+<form method="post" action="http://portal.clinica-santalucia.test/resultados/ver.php">
+  <input type="text" name="dni" placeholder="DNI del paciente">
+  <input type="password" name="clave" placeholder="Contraseña">
+  <button type="submit">Ingresar</button>
+</form>
+<p>Su contraseña inicial es su fecha de nacimiento (ddmmaaaa). ¿La olvidó? Escríbanos al WhatsApp de la clínica.</p>
+<!-- los resultados se muestran en ver.php?orden=NNNNN -->
+</body>
+</html>
+=== POSTULACIONES === 
+<!DOCTYPE html>
+<html lang="es">
+<head><meta charset="utf-8"><title>Trabaja con nosotros · Clínica Santa Lucía</title></head>
+<body>
+<h1>Trabaja con nosotros</h1>
+<form method="post" enctype="multipart/form-data" action="http://portal.clinica-santalucia.test/wp-admin/admin-ajax.php">
+  <input type="text" name="nombres" placeholder="Nombres y apellidos">
+  <input type="text" name="dni" placeholder="DNI">
+  <input type="email" name="correo" placeholder="Correo">
+  <input type="file" name="cv">
+  <button type="submit">Enviar postulación</button>
+</form>
+</body>
+</html>
